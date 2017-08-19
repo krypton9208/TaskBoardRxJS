@@ -1,0 +1,33 @@
+{
+  "name": "todolistrxjs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/krypton9208/TaskBoardRxJS.git"
+  },
+  "keywords": [
+    "to",
+    "do",
+    "list",
+    "app",
+    "rxjs",
+    "fun"
+  ],
+  "author": "Damian Krysta",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/krypton9208/TaskBoardRxJS/issues"
+  },
+  "homepage": "https://github.com/krypton9208/TaskBoardRxJS#readme",
+  "devDependencies": {
+    "browser-sync": "^2.18.13",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^4.0.0",
+    "gulp-sass": "^3.1.0"
+  }
+}
