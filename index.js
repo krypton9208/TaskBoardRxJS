@@ -6,11 +6,8 @@
   const clicks = Rx.Observable.fromEvent(addCardButton, 'click')
 
   clicks.subscribe (function (e) {
-    AddNewCart(e.target.parentNode.getAttribute("value"))
+    AddNewCart(e.target.parentNode.parentNode.parentNode.getAttribute("value"))
   });
-
-
-
 
   function AddNewCart (columnId) {
     if (!columnId) columnId = 0;
